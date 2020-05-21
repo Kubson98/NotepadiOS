@@ -1,0 +1,6 @@
+framework module Pods_notatnik {
+  umbrella header "Pods-notatnik-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DA8102C230A3A32F28899C2 /* Pods_notatnik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4210A23EC46EF8BA7540E4 /* Pods_notatnik.framework */; };
+		8C48ED49244C5FFC0046506F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48ED48244C5FFC0046506F /* Item.swift */; };
+		8C48ED52244C9EF40046506F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48ED50244C9EF40046506F /* TableViewCell.swift */; };
+		8C48ED53244C9EF40046506F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C48ED51244C9EF40046506F /* TableViewCell.xib */; };
+		8C48ED57244CA7D70046506F /* listController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48ED56244CA7D70046506F /* listController.swift */; };
+		8C48ED59244CA7F10046506F /* editController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48ED58244CA7F10046506F /* editController.swift */; };
 		8C7130D0244B1056007D1E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7130CF244B1056007D1E70 /* AppDelegate.swift */; };
 		8C7130D2244B1056007D1E70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7130D1244B1056007D1E70 /* SceneDelegate.swift */; };
-		8C7130D4244B1056007D1E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7130D3244B1056007D1E70 /* ViewController.swift */; };
 		8C7130D7244B1056007D1E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7130D5244B1056007D1E70 /* Main.storyboard */; };
 		8C7130D9244B1057007D1E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7130D8244B1057007D1E70 /* Assets.xcassets */; };
 		8C7130DC244B1057007D1E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7130DA244B1057007D1E70 /* LaunchScreen.storyboard */; };
+		8CFDE965246D85950047D525 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDE963246D85950047D525 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A4210A23EC46EF8BA7540E4 /* Pods_notatnik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notatnik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C48ED48244C5FFC0046506F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8C48ED50244C9EF40046506F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8C48ED51244C9EF40046506F /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		8C48ED56244CA7D70046506F /* listController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listController.swift; sourceTree = "<group>"; };
+		8C48ED58244CA7F10046506F /* editController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editController.swift; sourceTree = "<group>"; };
 		8C7130CC244B1056007D1E70 /* notatnik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notatnik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7130CF244B1056007D1E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C7130D1244B1056007D1E70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C7130D3244B1056007D1E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C7130D6244B1056007D1E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C7130D8244B1057007D1E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C7130DB244B1057007D1E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C7130DD244B1057007D1E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFDE964246D85950047D525 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		93791DBE69E58E31FF66A623 /* Pods-notatnik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notatnik.release.xcconfig"; path = "Target Support Files/Pods-notatnik/Pods-notatnik.release.xcconfig"; sourceTree = "<group>"; };
+		E7EDB4E0DF552808091C990C /* Pods-notatnik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notatnik.debug.xcconfig"; path = "Target Support Files/Pods-notatnik/Pods-notatnik.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA8102C230A3A32F28899C2 /* Pods_notatnik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65BD906EA0D56C8F364B594E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7EDB4E0DF552808091C990C /* Pods-notatnik.debug.xcconfig */,
+				93791DBE69E58E31FF66A623 /* Pods-notatnik.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C48ED4C244C633F0046506F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8C7130D5244B1056007D1E70 /* Main.storyboard */,
+				8C7130DA244B1057007D1E70 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8C48ED5A244CA80E0046506F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C48ED58244CA7F10046506F /* editController.swift */,
+				8C48ED56244CA7D70046506F /* listController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		8C7130C3244B1056007D1E70 = {
 			isa = PBXGroup;
 			children = (
 				8C7130CE244B1056007D1E70 /* notatnik */,
 				8C7130CD244B1056007D1E70 /* Products */,
+				65BD906EA0D56C8F364B594E /* Pods */,
+				CFC596D3888A966BF4D06012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,34 @@
 		8C7130CE244B1056007D1E70 /* notatnik */ = {
 			isa = PBXGroup;
 			children = (
+				8CFDE962246D85790047D525 /* Data Model */,
 				8C7130CF244B1056007D1E70 /* AppDelegate.swift */,
 				8C7130D1244B1056007D1E70 /* SceneDelegate.swift */,
-				8C7130D3244B1056007D1E70 /* ViewController.swift */,
-				8C7130D5244B1056007D1E70 /* Main.storyboard */,
+				8C48ED5A244CA80E0046506F /* Controller */,
+				8C48ED4C244C633F0046506F /* view */,
+				8C48ED48244C5FFC0046506F /* Item.swift */,
 				8C7130D8244B1057007D1E70 /* Assets.xcassets */,
-				8C7130DA244B1057007D1E70 /* LaunchScreen.storyboard */,
 				8C7130DD244B1057007D1E70 /* Info.plist */,
+				8C48ED50244C9EF40046506F /* TableViewCell.swift */,
+				8C48ED51244C9EF40046506F /* TableViewCell.xib */,
 			);
 			path = notatnik;
+			sourceTree = "<group>";
+		};
+		8CFDE962246D85790047D525 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CFDE963246D85950047D525 /* Model.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		CFC596D3888A966BF4D06012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4210A23EC46EF8BA7540E4 /* Pods_notatnik.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C7130E0244B1057007D1E70 /* Build configuration list for PBXNativeTarget "notatnik" */;
 			buildPhases = (
+				732DF0F408C9E045B38E575E /* [CP] Check Pods Manifest.lock */,
 				8C7130C8244B1056007D1E70 /* Sources */,
 				8C7130C9244B1056007D1E70 /* Frameworks */,
 				8C7130CA244B1056007D1E70 /* Resources */,
+				606F96BC30130D5724058C22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7130DC244B1057007D1E70 /* LaunchScreen.storyboard in Resources */,
+				8C48ED53244C9EF40046506F /* TableViewCell.xib in Resources */,
 				8C7130D9244B1057007D1E70 /* Assets.xcassets in Resources */,
 				8C7130D7244B1056007D1E70 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +199,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		606F96BC30130D5724058C22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notatnik/Pods-notatnik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notatnik/Pods-notatnik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-notatnik/Pods-notatnik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732DF0F408C9E045B38E575E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-notatnik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C7130C8244B1056007D1E70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7130D4244B1056007D1E70 /* ViewController.swift in Sources */,
+				8C48ED49244C5FFC0046506F /* Item.swift in Sources */,
+				8C48ED59244CA7F10046506F /* editController.swift in Sources */,
+				8C48ED57244CA7D70046506F /* listController.swift in Sources */,
+				8CFDE965246D85950047D525 /* Model.xcdatamodeld in Sources */,
 				8C7130D0244B1056007D1E70 /* AppDelegate.swift in Sources */,
+				8C48ED52244C9EF40046506F /* TableViewCell.swift in Sources */,
 				8C7130D2244B1056007D1E70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +394,7 @@
 		};
 		8C7130E1244B1057007D1E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EDB4E0DF552808091C990C /* Pods-notatnik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +413,7 @@
 		};
 		8C7130E2244B1057007D1E70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93791DBE69E58E31FF66A623 /* Pods-notatnik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +452,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CFDE963246D85950047D525 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CFDE964246D85950047D525 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8CFDE964246D85950047D525 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8C7130C4244B1056007D1E70 /* Project object */;
 }
