@@ -1,8 +1,18 @@
+//
+//  editController.swift
+//  notatnik
+//
+//  Created by Kuba on 19/04/2020.
+//  Copyright © 2020 Kuba. All rights reserved.
+//
 
 import UIKit
 
 class editController: UIViewController {
+    
     @IBOutlet weak var noteText: UITextView!
+    
+    //let listVC = listController()
     
     var selectedNote : Notes? {
         didSet{
@@ -11,22 +21,26 @@ class editController: UIViewController {
     }
     let vc = listController()
     weak var delegate: listController!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         noteText.text = selectedNote?.value
     }
-    
-    //MARK: - SAVE BUTTON PRESSED
-    
-    @IBAction func saveButtonPressed(_ sender: UIBarButtonItem) {
+ 
+     @IBAction func saveButtonPressed(_ sender: UIBarButtonItem) {
         let myString = noteText.text!
         if selectedNote?.value == nil {
+        
+        
             vc.newNote(value: myString)
-        } else {
+        }else{
             selectedNote?.value = myString
             selectedNote?.date = Date()
-        }
-        _ = navigationController?.popViewController(animated: true)
+        
+        
+        
     }
+        _ = navigationController?.popViewController(animated: true)
+       
+    }
+
 }

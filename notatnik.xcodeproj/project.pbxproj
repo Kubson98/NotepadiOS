@@ -61,31 +61,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		8C1C155224CF063600B91D14 /* TableView Cell */ = {
-			isa = PBXGroup;
-			children = (
-				8C48ED50244C9EF40046506F /* TableViewCell.swift */,
-				8C48ED51244C9EF40046506F /* TableViewCell.xib */,
-			);
-			path = "TableView Cell";
-			sourceTree = "<group>";
-		};
-		8C1C155324CF068D00B91D14 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8C48ED48244C5FFC0046506F /* Item.swift */,
-				8CFDE962246D85790047D525 /* Data Model */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		8C48ED4C244C633F0046506F /* View */ = {
+		8C48ED4C244C633F0046506F /* view */ = {
 			isa = PBXGroup;
 			children = (
 				8C7130D5244B1056007D1E70 /* Main.storyboard */,
 				8C7130DA244B1057007D1E70 /* LaunchScreen.storyboard */,
 			);
-			path = View;
+			path = view;
 			sourceTree = "<group>";
 		};
 		8C48ED5A244CA80E0046506F /* Controller */ = {
@@ -118,14 +100,16 @@
 		8C7130CE244B1056007D1E70 /* notatnik */ = {
 			isa = PBXGroup;
 			children = (
-				8C1C155324CF068D00B91D14 /* Model */,
-				8C48ED4C244C633F0046506F /* View */,
-				8C48ED5A244CA80E0046506F /* Controller */,
-				8C1C155224CF063600B91D14 /* TableView Cell */,
+				8CFDE962246D85790047D525 /* Data Model */,
 				8C7130CF244B1056007D1E70 /* AppDelegate.swift */,
 				8C7130D1244B1056007D1E70 /* SceneDelegate.swift */,
+				8C48ED5A244CA80E0046506F /* Controller */,
+				8C48ED4C244C633F0046506F /* view */,
+				8C48ED48244C5FFC0046506F /* Item.swift */,
 				8C7130D8244B1057007D1E70 /* Assets.xcassets */,
 				8C7130DD244B1057007D1E70 /* Info.plist */,
+				8C48ED50244C9EF40046506F /* TableViewCell.swift */,
+				8C48ED51244C9EF40046506F /* TableViewCell.xib */,
 			);
 			path = notatnik;
 			sourceTree = "<group>";
