@@ -6,7 +6,7 @@ import TableViewReloadAnimation
 class listController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var trashButton: UIBarButtonItem!
-    var toRemove : Bool = false
+    var toRemove: Bool = false
     var listArray = [Notes]()
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
@@ -48,7 +48,6 @@ class listController: UIViewController, UITableViewDataSource, UITableViewDelega
             tableView.deselectRow(at: indexPath, animated: false)
         } else {
             performSegue(withIdentifier: "goToEdit", sender: self)
-            var value = listArray[indexPath.row].value
         }
         tableView.reloadData()
     }

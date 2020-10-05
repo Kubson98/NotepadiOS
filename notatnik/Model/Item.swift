@@ -1,7 +1,7 @@
 
 import Foundation
 
-class Item {
+struct Item {
     var title: String = ""
     var data: String = ""
 }
